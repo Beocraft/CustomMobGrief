@@ -1,0 +1,8 @@
+name: CustomMobs
+version: ${project.version}
+main: net.beocraft.mobs.CustomMobs
+api-version: 1.16
+prefix: CustomMobs
+authors: [ Pequla ]
+description: Mob customisations every server should have installed
+website: https://beocraft.net/
