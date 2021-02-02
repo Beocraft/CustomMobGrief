@@ -10,7 +10,7 @@ public class EntityExplode implements Listener {
     @EventHandler
     public void onEntityExplodeEvent(EntityExplodeEvent event) {
         EntityType type = event.getEntity().getType();
-        if (type == EntityType.CREEPER) {
+        if (type == EntityType.CREEPER || type == EntityType.FIREBALL) {
             event.setCancelled(true);
         }
     }
