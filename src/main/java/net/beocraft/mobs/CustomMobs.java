@@ -11,5 +11,6 @@ public final class CustomMobs extends JavaPlugin {
         PluginManager manager = getServer().getPluginManager();
         manager.registerEvents(new EntityExplode(), this);
         manager.registerEvents(new EntityDeath(), this);
+        manager.registerEvents(new EntityChangeBlock(), this);
     }
 }
